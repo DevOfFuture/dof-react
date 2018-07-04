@@ -204,6 +204,42 @@ class ngoDashbard extends React.Component {
                   <div className="d-none d-md-inline">Support</div>
                 </NavLink>
               </NavItem>
+<<<<<<< HEAD
+                <NavItem className="d-none d-md-inline" style={{paddingTop: 25}}>
+                    <strong>Dashboard, welcome ...</strong>
+                </NavItem>
+              </NavbarNav>
+              <NavbarNav right style={specialCaseNavbarStyles}>
+                <NavItem active>
+                    <NavLink to="#!"><Fa icon="envelope" className="d-inline-inline"/>  <div className="d-none d-md-inline">Contact</div></NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink to="#!"><Fa icon="comments-o" className="d-inline-inline"/> <div className="d-none d-md-inline">Support</div></NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink to="#!"><Fa icon="user" className="d-inline-inline"/>  <div className="d-none d-md-inline">Account</div></NavLink>
+                </NavItem>
+                <NavItem>
+                  <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+                    <DropdownToggle nav caret> <div className="d-none d-md-inline">USer Profile Picture here.</div></DropdownToggle>
+                    <DropdownMenu right>
+                      <DropdownItem href="#!">Profile</DropdownItem>
+                      <DropdownItem href="#!">Edit Profile</DropdownItem>
+                      <DropdownItem href="/">Logout</DropdownItem>
+                      {/* <DropdownItem href="#!">Something else here</DropdownItem> */}
+                    </DropdownMenu>
+                  </Dropdown>
+                </NavItem>
+              </NavbarNav>
+            </Navbar>
+            <main style={mainStyle}>
+              <Container fluid style={{height: 2000}} className="mt-5">
+                Welcome
+              </Container>
+            </main>
+            </div>
+        </Router>
+=======
               <NavItem>
                 <NavLink to="#!">
                   <Fa icon="user" className="d-inline-inline" />{" "}
@@ -233,6 +269,7 @@ class ngoDashbard extends React.Component {
           </main>
         </div>
       </Router>
+>>>>>>> f9de0fb47799a77f30643e72937e3d2ec1e7f6bd
     );
   }
 }
