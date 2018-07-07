@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-import 'bootstrap/dist/css/bootstrap.css';
-import 'mdbreact/dist/css/mdb.css';
-import React from 'react';
-import { Collapse, Mask, Row, Col, Fa, Button, View, Container, FormInline } from 'mdbreact';
-import Footer from '../Footer/Footer';
-import { House, Fload, dev,  artboard, Heart} from '../Layout/Images';
-import Navigation from '../Layout/Navigation'
-=======
 import "bootstrap/dist/css/bootstrap.css";
 import "mdbreact/dist/css/mdb.css";
 import React from "react";
@@ -28,7 +19,6 @@ import Heart from "../../../public/images/hearts.svg";
 import dev from "../../../public/images/dev.png";
 import artboard from "../../../public/images/artboard.png";
 import Navigation from "../Layout/Navigation";
->>>>>>> f9de0fb47799a77f30643e72937e3d2ec1e7f6bd
 
 class Home extends React.Component {
   render() {
